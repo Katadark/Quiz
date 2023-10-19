@@ -45,6 +45,12 @@
     font-size: 24px;
     font-weight: bold;
     text-align: center;
+    ;
+  }
+
+  .questionImage{ border-color: white;
+                  border-style: dotted;
+
   }
   
   .answers-container {
