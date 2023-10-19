@@ -145,10 +145,10 @@ function selectAnswer(event) {
   const answerClicked = event.target
 
   if (answerClicked.dataset.correct) {
-    document.body.classList.add("correct")
+    document.body.classList.add()
     totalCorrect++
   } else {
-    document.body.classList.add("incorrect") 
+    document.body.classList.add() 
   }
 
   document.querySelectorAll(".answer").forEach(button => {
