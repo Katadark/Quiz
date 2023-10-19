@@ -1,0 +1,123 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #000000;
+
+}
+
+#box{
+    margin-top: 150px;
+    display: grid;
+    justify-content: center;
+    align-items: center;    
+    text-align: center;
+   
+}
+
+#items {
+    background-color: rgb(34, 1, 53);
+    display: grid;
+    border-radius: 3px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-color: white;
+    border-style: dotted;
+}
+
+#pergunta{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    color: #080808;
+    text-transform: uppercase;
+    background-color: rgb(236, 206, 245);
+    padding: 10px;
+    border-radius: 2px;
+    
+    font-family: 'Dosis', sans-serif;
+
+}
+
+
+@keyframes pergunta {
+    0% { background-color: #FF0000; }
+    50% { background-color: #FFFF00; }
+    100% { background-color: #FF0000; }
+  }
+
+#textinho{
+    color: #faf6f6;
+    padding: 10px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+    
+    border-radius: 2px;
+    font-family: 'Dosis', sans-serif;
+}
+
+#button {
+    text-align: center;
+    cursor: pointer;
+}
+
+.container {
+    position: absolute;
+    top:50%;
+    left:50%;
+    margin-left: -65px;
+    margin-top: -20px;
+    width: 130px;
+    height: 40px;
+    text-align: center;
+  }
+button {
+    outline:none;
+    height: 40px;
+    text-align: center;
+    width: 130px;
+    border-radius:10px;
+    background: #fff;
+    border: solid rgb(8, 172, 236) 5px;
+    letter-spacing:1px;
+    transition: background-color 0.2s ease;
+ }
+
+a {
+    text-decoration: none;
+    
+  }  
+
+button:hover{
+    background: #B0E0E6;
+}
+
+button:active:before {
+    transform: perspective(50px) rotateX(90deg);
+
+    .feedback {
+        text-align: center;
+        font-size: 1.2em;
+        font-weight: bold;
+        margin-bottom: 10px;
+        color: #fff;
+    }
+    
+    .feedback.success {
+        color: green;
+    }
+    
+    .feedback.error {
+        color:#FF0000;
+    }
+}
