@@ -1,6 +1,8 @@
+/* teste de tamanho */
 
+/*
 .teste{ width: 100px;
-         height: 100px;}
+         height: 100px;} */ 
 
 
 
@@ -24,7 +26,9 @@
     justify-content: center;
     align-items: center;
   }
-  
+
+  /* caixa */
+
   .container {
     background-color: #121214;
     width: 90%;
@@ -40,7 +44,9 @@
     justify-content: center;
     align-items: center;
   }
-  
+
+   /* questão */
+
   .questions-container {
     width: 100%;
     display: flex;
@@ -61,6 +67,8 @@
 
   }
   
+   /* respostas */
+
   .answers-container {
     width: 100%;
     display: grid;
@@ -75,7 +83,9 @@
   .next-question {
     margin-top: 32px;
   }
-  
+
+/* botoes*/
+
   .button {
     background-color: #4863f7;
     color: #fff;
@@ -93,7 +103,7 @@
     filter: brightness(0.8);
   }
   
-  /* Finish game */
+    /* Fim do jogo */
   .final-message {
     font-size: 20px;
     text-align: center;
@@ -104,7 +114,7 @@
     margin-top: 8px;
   }
   
-  /* General styles */
+  /* Estilo das respostas */
   .hide {
     display: none;
   }

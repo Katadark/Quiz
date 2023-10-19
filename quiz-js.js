@@ -102,9 +102,12 @@ const questions = [
 let currentQuestionIndex = 0
 let totalCorrect = 0
 
+ //inicializações
+
 $startGameButton.addEventListener("click", startGame)
 $nextQuestionButton.addEventListener("click", displayNextQuestion)
 
+//start
 function startGame() {
   $startGameButton.classList.add("hide")
   $questionsContainer.classList.remove("hide")
@@ -150,7 +153,7 @@ function selectAnswer(event) {
   } else {
     document.body.classList.add() 
   }
-
+// adiciona a cor as alternativas certas e erradas
   document.querySelectorAll(".answer").forEach(button => {
     button.disabled = true
 
@@ -164,11 +167,13 @@ function selectAnswer(event) {
   $nextQuestionButton.classList.remove("hide")
   currentQuestionIndex++
 }
-
+//calculo de respostas
 function finishGame() {
   const totalQuestions = questions.length
   const performance = Math.floor(totalCorrect * 100 / totalQuestions)
   
+
+  // verificação de respostas
   let message = ""
 
   switch (true) {
