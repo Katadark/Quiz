@@ -19,6 +19,7 @@
   }
   
   body {
+    
     background-color: #20033a;
     color: #fff;
     height: 100vh;
@@ -124,5 +125,7 @@
   }
   
   .incorrect {
+    
     background-color: #a10101;
+    text-decoration:line-through;
   }
