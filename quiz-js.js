@@ -1,9 +1,12 @@
-const $startGameButton = document.querySelector(".start-quiz")
-const $nextQuestionButton = document.querySelector(".next-question")
-const $questionsContainer = document.querySelector(".questions-container")
+
 const $questionText = document.querySelector(".question")
 const $answersContainer = document.querySelector(".answers-container")
 const $answers = document.querySelectorAll(".answer")
+
+const $startGameButton = document.querySelector(".start-quiz")
+const $nextQuestionButton = document.querySelector(".next-question")
+const $questionsContainer = document.querySelector(".questions-container")
+
 
 
 const questions = [
@@ -196,7 +199,7 @@ function finishGame() {
   `
     <p class="final-message">
       Você acertou ${totalCorrect} de ${totalQuestions} questões!
-      <span>Resultado: ${message}</span>
+      <span> ${message}</span>
     </p>
     <button 
       onclick=window.location.reload() 
